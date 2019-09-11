@@ -1,0 +1,22 @@
+{
+  "name": "HSZButton",
+  "version": "0.1.0",
+  "summary": "A short description of HSZButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/keassze/HSZButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keassze": "917313843@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/keassze/HSZButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HSZButton/Classes/**/*"
+}

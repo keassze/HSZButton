@@ -1,0 +1,6 @@
+framework module HSZButton {
+  umbrella header "HSZButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

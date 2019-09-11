@@ -1,0 +1,16 @@
+PODS:
+  - HSZButton (0.1.0)
+
+DEPENDENCIES:
+  - HSZButton (from `../`)
+
+EXTERNAL SOURCES:
+  HSZButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSZButton: afb0046c85bdb66e876b432ad403bfc60ade1916
+
+PODFILE CHECKSUM: 6f8505d7166583e1612c11223611a7e00b3b4eda
+
+COCOAPODS: 1.5.3
