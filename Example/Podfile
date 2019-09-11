@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HSZButton_Example' do
+  pod 'HSZButton', :path => '../'
+
+  target 'HSZButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
