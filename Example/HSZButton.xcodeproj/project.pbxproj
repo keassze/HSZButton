@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C15D8F98B5E512B42F10599 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C04EAA527DDCA1B526A51F54 /* Pods-HSZButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSZButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSZButton_Example/Pods-HSZButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C1C664DC53ECD23BA0DA3065 /* HSZButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HSZButton.podspec; path = ../HSZButton.podspec; sourceTree = "<group>"; };
+		C1C664DC53ECD23BA0DA3065 /* HSZButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HSZButton.podspec; path = ../HSZButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C35848A14FBA5787E3DBDC14 /* Pods-HSZButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSZButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSZButton_Tests/Pods-HSZButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = keassze;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X62QS6YH49;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +501,7 @@
 			baseConfigurationReference = C04EAA527DDCA1B526A51F54 /* Pods-HSZButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X62QS6YH49;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HSZButton/HSZButton-Prefix.pch";
 				INFOPLIST_FILE = "HSZButton/HSZButton-Info.plist";
@@ -515,6 +519,7 @@
 			baseConfigurationReference = 367AD71247E6CE4848000600 /* Pods-HSZButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X62QS6YH49;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HSZButton/HSZButton-Prefix.pch";
 				INFOPLIST_FILE = "HSZButton/HSZButton-Info.plist";
